@@ -2,14 +2,14 @@
   
 [![Status](https://img.shields.io/badge/npm-v5.0.0-blue.svg)](https://www.npmjs.com/)
 [![Status](https://img.shields.io/badge/node-v8.0-blue.svg)](https://nodejs.org/en/download/)
-[![Status](https://travis-ci.org/Suwings/MCSManager.svg?branch=master)](https://travis-ci.org/Suwings/MCSManager)
-[![Status](https://img.shields.io/badge/License-AGPLv3-red.svg)](https://github.com/Suwings/MCSManager)
+[![Status](https://travis-ci.org/kiseopt/MCSManager-mod.svg?branch=master)](https://travis-ci.org/kiseopt/MCSManager-mod)
+[![Status](https://img.shields.io/badge/License-AGPLv3-red.svg)](https://github.com/kiseopt/MCSManager-mod)
 
 
 简单，易用，多实例，轻量级的 Minecraft Server 控制面板
 
 
-[中文简体](https://github.com/Suwings/MCSManager) | [中文繁體](README-traditional.md)
+[中文简体](https://github.com/kiseopt/MCSManager-mod) | [中文繁體](README-traditional.md)
 
 
 <br />
@@ -62,7 +62,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install 11.0.0
 nvm use 11.0.0
 # 克隆仓库
-git clone https://github.com/suwings/mcsmanager.git
+git clone https://github.com/kiseopt/MCSManager-mod.git
 # 进入目录
 cd mcsmanager/
 # 安装依赖库
@@ -72,7 +72,7 @@ sudo npm start #或 sudo node app.js
 
 ```
 
-> 如果您还是无法正常运行，请 [单击这里](https://github.com/Suwings/MCSManager/wiki/Linux-%E4%B8%8B%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3)
+> 如果您还是无法正常运行，请 [单击这里](https://github.com/kiseopt/MCSManager-mod/wiki/Linux-%E4%B8%8B%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3)
 
 - 项目属于**开箱即用**的面板，并未提供服务注册功能，当终端关闭时，面板也会跟随终端关闭。
 - 可以使用 **screen** 软件来让面板持续在后台运行。
@@ -86,9 +86,9 @@ sudo npm start #或 sudo node app.js
 
 如果你不会使用，请点击`具体使用方法` 链接，如果你还未安装 Docker 请点击 `安装Docker` 的链接。
 
-**具体使用方法:** [单击跳转](https://github.com/Suwings/MCSManager/blob/gh-pages/Question_1.md)
+**具体使用方法:** [单击跳转](https://github.com/kiseopt/MCSManager-mod/blob/gh-pages/Question_1.md)
 
-**安装 Docker:** [单击跳转](https://github.com/Suwings/MCSManager/blob/gh-pages/Question_2.md)
+**安装 Docker:** [单击跳转](https://github.com/kiseopt/MCSManager-mod/blob/gh-pages/Question_2.md)
 
 
 <br />
@@ -98,7 +98,7 @@ Wiki
 ---------
 我们有些常见问题与细节上的问题，已经把它们都整合在 `Wiki` 里面。
 
-欢迎你阅读 [Wiki](https://github.com/Suwings/MCSManager/wiki) 与提出建议。
+欢迎你阅读 [Wiki](https://github.com/kiseopt/MCSManager-mod/wiki) 与提出建议。
 
 <br />
 
@@ -107,12 +107,12 @@ Wiki
 -----------
 | 问题 | 详情 |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
-使用面板开启 `Bedrock Server` 端 | [详情页](https://github.com/Suwings/MCSManager/issues/86)
-面板管理员的默认账号和密码是什么？ | [详情页](https://github.com/Suwings/MCSManager/issues/75)
+使用面板开启 `Bedrock Server` 端 | [详情页](https://github.com/kiseopt/MCSManager-mod/issues/86)
+面板管理员的默认账号和密码是什么？ | [详情页](https://github.com/kiseopt/MCSManager-mod/issues/75)
 面板如何正确关闭？ | Ctrl+C
 配置文件是什么？ | property.js
-配好反向代理却无法使用？ | [Apache](https://github.com/Suwings/MCSManager/issues/34) [Nginx](https://github.com/Suwings/MCSManager/issues/22)
-FTP 无法使用？ | [跳转](https://github.com/Suwings/MCSManager#ftp-%E6%9C%8D%E5%8A%A1)
+配好反向代理却无法使用？ | [Apache](https://github.com/kiseopt/MCSManager-mod/issues/34) [Nginx](https://github.com/kiseopt/MCSManager-mod/issues/22)
+FTP 无法使用？ | [跳转](https://github.com/kiseopt/MCSManager-mod#ftp-%E6%9C%8D%E5%8A%A1)
 
 <br />
 
@@ -180,7 +180,7 @@ FTP 模块采用被动传输模式，传输命令默认使用 `10022`(可更改)
 
 尽管默认没有 Https ，您可能在公共网络下不太放心，但是我们不传递明文的密码，可以保证你的账号的密码是难以泄露的。
 
-具体密码传递过程可参考 [单击这里跳转](https://github.com/Suwings/MCSManager/wiki/%E7%99%BB%E5%BD%95%E5%AF%86%E7%A0%81%E4%BC%A0%E9%80%92%E8%BF%87%E7%A8%8B%E5%9B%BE)
+具体密码传递过程可参考 [单击这里跳转](https://github.com/kiseopt/MCSManager-mod/wiki/%E7%99%BB%E5%BD%95%E5%AF%86%E7%A0%81%E4%BC%A0%E9%80%92%E8%BF%87%E7%A8%8B%E5%9B%BE)
 
 **Property 文件**
 
@@ -199,9 +199,9 @@ FTP 模块采用被动传输模式，传输命令默认使用 `10022`(可更改)
 
 后端请通过反向代理完成，或自行修改 Express 初始化 App。
 
-[Apache 反向代理教程](https://github.com/Suwings/MCSManager/wiki/%E4%BD%BF%E7%94%A8-Apache2.4-%E8%BF%9B%E8%A1%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86)
+[Apache 反向代理教程](https://github.com/kiseopt/MCSManager-mod/wiki/%E4%BD%BF%E7%94%A8-Apache2.4-%E8%BF%9B%E8%A1%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86)
 
-**注意:** [Nginx 反向代理注意](https://github.com/Suwings/MCSManager/issues/22)  | [Apache 反向代理注意](https://github.com/Suwings/MCSManager/issues/34)  | [关于 Caddy 反向代理坑](https://github.com/Suwings/MCSManager/issues/122)
+**注意:** [Nginx 反向代理注意](https://github.com/kiseopt/MCSManager-mod/issues/22)  | [Apache 反向代理注意](https://github.com/kiseopt/MCSManager-mod/issues/34)  | [关于 Caddy 反向代理坑](https://github.com/kiseopt/MCSManager-mod/issues/122)
 
 <br />
 

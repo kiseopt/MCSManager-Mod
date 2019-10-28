@@ -2,14 +2,14 @@
   
 [![Status](https://img.shields.io/badge/npm-v5.0.0-blue.svg)](https://www.npmjs.com/)
 [![Status](https://img.shields.io/badge/node-v8.0-blue.svg)](https://nodejs.org/en/download/)
-[![Status](https://travis-ci.org/Suwings/MCSManager.svg?branch=master)](https://travis-ci.org/Suwings/MCSManager)
-[![Status](https://img.shields.io/badge/License-AGPLv3-red.svg)](https://github.com/Suwings/MCSManager)
+[![Status](https://travis-ci.org/kiseopt/MCSManager-mod.svg?branch=master)](https://travis-ci.org/kiseopt/MCSManager-mod)
+[![Status](https://img.shields.io/badge/License-AGPLv3-red.svg)](https://github.com/kiseopt/MCSManager-mod)
 
 
 簡單，易用，多實例，輕量級的 Minecraft Server 控制面板
 
 
-[中文簡體](https://github.com/Suwings/MCSManager) | [中文繁體](README-traditional.md)
+[中文簡體](https://github.com/kiseopt/MCSManager-mod) | [中文繁體](README-traditional.md)
 
 
 <br />
@@ -43,7 +43,7 @@ Node 8.0 以上
 -----------
 對於 Windows 系統，已整合成直接運行版本，下載即可運行:
 
-http://mcsm.suwings.top/ (官方站點)
+http://MCSManager-mod.acg.vc/ (官方站點)
 
 **註意:** 這裏提供的下載是打包集成好的，小版本更新我們不會打包，也就是意味著，這裏不能實時跟隨最新版本。
 
@@ -62,7 +62,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install 11.0.0
 nvm use 11.0.0
 # 克隆倉庫
-git clone https://github.com/suwings/mcsmanager.git
+git clone https://github.com/kiseopt/MCSManager-mod.git
 # 進入目錄
 cd mcsmanager/
 # 安裝依賴庫
@@ -72,7 +72,7 @@ sudo npm start #或 sudo node app.js
 
 ```
 
-> 如果您還是無法正常運行，請 [單擊這裏](https://github.com/Suwings/MCSManager/wiki/Linux-%E4%B8%8B%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3)
+> 如果您還是無法正常運行，請 [單擊這裏](https://github.com/kiseopt/MCSManager-mod/wiki/Linux-%E4%B8%8B%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3)
 
 - 項目屬於**開箱即用**的面板，並未提供服務註冊功能，當終端關閉時，面板也會跟隨終端關閉。
 - 可以使用 **screen** 軟件來讓面板持續在後臺運行。
@@ -86,9 +86,9 @@ sudo npm start #或 sudo node app.js
 
 如果妳不會使用，請點擊`具體使用方法` 鏈接，如果妳還未安裝 Docker 請點擊 `安裝Docker` 的鏈接。
 
-**具體使用方法:** [單擊跳轉](https://github.com/Suwings/MCSManager/blob/gh-pages/Question_1.md)
+**具體使用方法:** [單擊跳轉](https://github.com/kiseopt/MCSManager-mod/blob/gh-pages/Question_1.md)
 
-**安裝 Docker:** [單擊跳轉](https://github.com/Suwings/MCSManager/blob/gh-pages/Question_2.md)
+**安裝 Docker:** [單擊跳轉](https://github.com/kiseopt/MCSManager-mod/blob/gh-pages/Question_2.md)
 
 
 <br />
@@ -98,7 +98,7 @@ Wiki
 ---------
 我們有些常見問題與細節上的問題，已經把它們都整合在 `Wiki` 裏面。
 
-歡迎妳閱讀 [Wiki](https://github.com/Suwings/MCSManager/wiki) 與提出建議。
+歡迎妳閱讀 [Wiki](https://github.com/kiseopt/MCSManager-mod/wiki) 與提出建議。
 
 <br />
 
@@ -107,12 +107,12 @@ Wiki
 -----------
 | 問題 | 詳情 |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
-使用面板開啟 `Bedrock Server` 端 | [詳情頁](https://github.com/Suwings/MCSManager/issues/86)
-面板管理員的默認賬號和密碼是什麽？ | [詳情頁](https://github.com/Suwings/MCSManager/issues/75)
+使用面板開啟 `Bedrock Server` 端 | [詳情頁](https://github.com/kiseopt/MCSManager-mod/issues/86)
+面板管理員的默認賬號和密碼是什麽？ | [詳情頁](https://github.com/kiseopt/MCSManager-mod/issues/75)
 面板如何正確關閉？ | Ctrl+C
 配置文件是什麽？ | property.js
-配好反向代理卻無法使用？ | [Apache](https://github.com/Suwings/MCSManager/issues/34) [Nginx](https://github.com/Suwings/MCSManager/issues/22)
-FTP 無法使用？ | [跳轉](https://github.com/Suwings/MCSManager#ftp-%E6%9C%8D%E5%8A%A1)
+配好反向代理卻無法使用？ | [Apache](https://github.com/kiseopt/MCSManager-mod/issues/34) [Nginx](https://github.com/kiseopt/MCSManager-mod/issues/22)
+FTP 無法使用？ | [跳轉](https://github.com/kiseopt/MCSManager-mod#ftp-%E6%9C%8D%E5%8A%A1)
 
 <br />
 
@@ -180,7 +180,7 @@ FTP 模塊采用被動傳輸模式，傳輸命令默認使用 `10022`(可更改)
 
 盡管默認沒有 Https ，您可能在公共網絡下不太放心，但是我們不傳遞明文的密碼，可以保證妳的賬號的密碼是難以泄露的。
 
-具體密碼傳遞過程可參考 [單擊這裏跳轉](https://github.com/Suwings/MCSManager/wiki/%E7%99%BB%E5%BD%95%E5%AF%86%E7%A0%81%E4%BC%A0%E9%80%92%E8%BF%87%E7%A8%8B%E5%9B%BE)
+具體密碼傳遞過程可參考 [單擊這裏跳轉](https://github.com/kiseopt/MCSManager-mod/wiki/%E7%99%BB%E5%BD%95%E5%AF%86%E7%A0%81%E4%BC%A0%E9%80%92%E8%BF%87%E7%A8%8B%E5%9B%BE)
 
 **Property 文件**
 
@@ -199,9 +199,9 @@ FTP 模塊采用被動傳輸模式，傳輸命令默認使用 `10022`(可更改)
 
 後端請通過反向代理完成，或自行修改 Express 初始化 App。
 
-[Apache 反向代理教程](https://github.com/Suwings/MCSManager/wiki/%E4%BD%BF%E7%94%A8-Apache2.4-%E8%BF%9B%E8%A1%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86)
+[Apache 反向代理教程](https://github.com/kiseopt/MCSManager-mod/wiki/%E4%BD%BF%E7%94%A8-Apache2.4-%E8%BF%9B%E8%A1%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86)
 
-**註意:** [Nginx 反向代理註意](https://github.com/Suwings/MCSManager/issues/22)  | [Apache 反向代理註意](https://github.com/Suwings/MCSManager/issues/34)  | [關於 Caddy 反向代理坑](https://github.com/Suwings/MCSManager/issues/122)
+**註意:** [Nginx 反向代理註意](https://github.com/kiseopt/MCSManager-mod/issues/22)  | [Apache 反向代理註意](https://github.com/kiseopt/MCSManager-mod/issues/34)  | [關於 Caddy 反向代理坑](https://github.com/kiseopt/MCSManager-mod/issues/122)
 
 <br />
 

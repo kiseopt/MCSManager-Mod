@@ -41,7 +41,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Suwings/MCSManager"
+    "url": "https://github.com/kiseopt/MCSManager-mod"
   },
   "scripts": {
     "start": "node app.js",
