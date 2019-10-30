@@ -62,9 +62,9 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install 11.0.0
 nvm use 11.0.0
 # 克隆倉庫
-git clone https://github.com/kiseopt/MCSManager-mod.git
+git clone https://github.com/kiseopt/mcsmanager-mod.git
 # 進入目錄
-cd mcsmanager/
+cd mcsmanager-mod
 # 安裝依賴庫
 npm install
 # 啟動面板
